@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"ctrboard-can\startup_stm32f446xx.o"
+"ctrboard-can\main.o"
+"ctrboard-can\gpio.o"
+"ctrboard-can\can.o"
+"ctrboard-can\stm32f4xx_it.o"
+"ctrboard-can\stm32f4xx_hal_msp.o"
+"ctrboard-can\stm32f4xx_hal_can.o"
+"ctrboard-can\stm32f4xx_hal_rcc.o"
+"ctrboard-can\stm32f4xx_hal_rcc_ex.o"
+"ctrboard-can\stm32f4xx_hal_flash.o"
+"ctrboard-can\stm32f4xx_hal_flash_ex.o"
+"ctrboard-can\stm32f4xx_hal_flash_ramfunc.o"
+"ctrboard-can\stm32f4xx_hal_gpio.o"
+"ctrboard-can\stm32f4xx_hal_dma_ex.o"
+"ctrboard-can\stm32f4xx_hal_dma.o"
+"ctrboard-can\stm32f4xx_hal_pwr.o"
+"ctrboard-can\stm32f4xx_hal_pwr_ex.o"
+"ctrboard-can\stm32f4xx_hal_cortex.o"
+"ctrboard-can\stm32f4xx_hal.o"
+"ctrboard-can\stm32f4xx_hal_exti.o"
+"ctrboard-can\stm32f4xx_hal_tim.o"
+"ctrboard-can\stm32f4xx_hal_tim_ex.o"
+"ctrboard-can\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "CtrBoard-CAN\CtrBoard-CAN.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CtrBoard-CAN.map" -o CtrBoard-CAN\CtrBoard-CAN.axf

@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"ctrboard-uart5\startup_stm32f446xx.o"
+"ctrboard-uart5\main.o"
+"ctrboard-uart5\gpio.o"
+"ctrboard-uart5\usart.o"
+"ctrboard-uart5\stm32f4xx_it.o"
+"ctrboard-uart5\stm32f4xx_hal_msp.o"
+"ctrboard-uart5\stm32f4xx_hal_tim.o"
+"ctrboard-uart5\stm32f4xx_hal_tim_ex.o"
+"ctrboard-uart5\stm32f4xx_hal_uart.o"
+"ctrboard-uart5\stm32f4xx_hal_rcc.o"
+"ctrboard-uart5\stm32f4xx_hal_rcc_ex.o"
+"ctrboard-uart5\stm32f4xx_hal_flash.o"
+"ctrboard-uart5\stm32f4xx_hal_flash_ex.o"
+"ctrboard-uart5\stm32f4xx_hal_flash_ramfunc.o"
+"ctrboard-uart5\stm32f4xx_hal_gpio.o"
+"ctrboard-uart5\stm32f4xx_hal_dma_ex.o"
+"ctrboard-uart5\stm32f4xx_hal_dma.o"
+"ctrboard-uart5\stm32f4xx_hal_pwr.o"
+"ctrboard-uart5\stm32f4xx_hal_pwr_ex.o"
+"ctrboard-uart5\stm32f4xx_hal_cortex.o"
+"ctrboard-uart5\stm32f4xx_hal.o"
+"ctrboard-uart5\stm32f4xx_hal_exti.o"
+"ctrboard-uart5\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "CtrBoard-UART5\CtrBoard-UART5.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CtrBoard-UART5.map" -o CtrBoard-UART5\CtrBoard-UART5.axf

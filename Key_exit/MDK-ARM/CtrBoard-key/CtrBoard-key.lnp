@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"ctrboard-key\startup_stm32f446xx.o"
+"ctrboard-key\main.o"
+"ctrboard-key\gpio.o"
+"ctrboard-key\stm32f4xx_it.o"
+"ctrboard-key\stm32f4xx_hal_msp.o"
+"ctrboard-key\stm32f4xx_hal_tim.o"
+"ctrboard-key\stm32f4xx_hal_tim_ex.o"
+"ctrboard-key\stm32f4xx_hal_rcc.o"
+"ctrboard-key\stm32f4xx_hal_rcc_ex.o"
+"ctrboard-key\stm32f4xx_hal_flash.o"
+"ctrboard-key\stm32f4xx_hal_flash_ex.o"
+"ctrboard-key\stm32f4xx_hal_flash_ramfunc.o"
+"ctrboard-key\stm32f4xx_hal_gpio.o"
+"ctrboard-key\stm32f4xx_hal_dma_ex.o"
+"ctrboard-key\stm32f4xx_hal_dma.o"
+"ctrboard-key\stm32f4xx_hal_pwr.o"
+"ctrboard-key\stm32f4xx_hal_pwr_ex.o"
+"ctrboard-key\stm32f4xx_hal_cortex.o"
+"ctrboard-key\stm32f4xx_hal.o"
+"ctrboard-key\stm32f4xx_hal_exti.o"
+"ctrboard-key\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "CtrBoard-key\CtrBoard-key.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CtrBoard-key.map" -o CtrBoard-key\CtrBoard-key.axf

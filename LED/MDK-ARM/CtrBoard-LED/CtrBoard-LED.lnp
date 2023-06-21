@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"ctrboard-led\startup_stm32f446xx.o"
+"ctrboard-led\main.o"
+"ctrboard-led\gpio.o"
+"ctrboard-led\stm32f4xx_it.o"
+"ctrboard-led\stm32f4xx_hal_msp.o"
+"ctrboard-led\stm32f4xx_hal_tim.o"
+"ctrboard-led\stm32f4xx_hal_tim_ex.o"
+"ctrboard-led\stm32f4xx_hal_rcc.o"
+"ctrboard-led\stm32f4xx_hal_rcc_ex.o"
+"ctrboard-led\stm32f4xx_hal_flash.o"
+"ctrboard-led\stm32f4xx_hal_flash_ex.o"
+"ctrboard-led\stm32f4xx_hal_flash_ramfunc.o"
+"ctrboard-led\stm32f4xx_hal_gpio.o"
+"ctrboard-led\stm32f4xx_hal_dma_ex.o"
+"ctrboard-led\stm32f4xx_hal_dma.o"
+"ctrboard-led\stm32f4xx_hal_pwr.o"
+"ctrboard-led\stm32f4xx_hal_pwr_ex.o"
+"ctrboard-led\stm32f4xx_hal_cortex.o"
+"ctrboard-led\stm32f4xx_hal.o"
+"ctrboard-led\stm32f4xx_hal_exti.o"
+"ctrboard-led\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "CtrBoard-LED\CtrBoard-LED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CtrBoard-LED.map" -o CtrBoard-LED\CtrBoard-LED.axf

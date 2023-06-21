@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"ctrboard-rs485\startup_stm32f446xx.o"
+"ctrboard-rs485\main.o"
+"ctrboard-rs485\gpio.o"
+"ctrboard-rs485\usart.o"
+"ctrboard-rs485\stm32f4xx_it.o"
+"ctrboard-rs485\stm32f4xx_hal_msp.o"
+"ctrboard-rs485\stm32f4xx_hal_tim.o"
+"ctrboard-rs485\stm32f4xx_hal_tim_ex.o"
+"ctrboard-rs485\stm32f4xx_hal_uart.o"
+"ctrboard-rs485\stm32f4xx_hal_rcc.o"
+"ctrboard-rs485\stm32f4xx_hal_rcc_ex.o"
+"ctrboard-rs485\stm32f4xx_hal_flash.o"
+"ctrboard-rs485\stm32f4xx_hal_flash_ex.o"
+"ctrboard-rs485\stm32f4xx_hal_flash_ramfunc.o"
+"ctrboard-rs485\stm32f4xx_hal_gpio.o"
+"ctrboard-rs485\stm32f4xx_hal_dma_ex.o"
+"ctrboard-rs485\stm32f4xx_hal_dma.o"
+"ctrboard-rs485\stm32f4xx_hal_pwr.o"
+"ctrboard-rs485\stm32f4xx_hal_pwr_ex.o"
+"ctrboard-rs485\stm32f4xx_hal_cortex.o"
+"ctrboard-rs485\stm32f4xx_hal.o"
+"ctrboard-rs485\stm32f4xx_hal_exti.o"
+"ctrboard-rs485\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "CtrBoard-RS485\CtrBoard-RS485.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CtrBoard-RS485.map" -o CtrBoard-RS485\CtrBoard-RS485.axf
