@@ -1,4 +1,4 @@
-![logo](img\logo.png)
+![logo](img/logo.png)
 
 # 达妙科技 |DM-MC-Board01 电机开发板
 
