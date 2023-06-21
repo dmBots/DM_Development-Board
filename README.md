@@ -7,6 +7,8 @@ DM-MC-Board01 主控芯片是STM32F446RCT6，该开发板是一款面向机器�
 
 #### 特征参数
 
+
+
 <table>
 	<tr>
 	    <th>属性</th>
@@ -100,6 +102,7 @@ DM-MC-Board01 主控芯片是STM32F446RCT6，该开发板是一款面向机器�
 	    <td >x1</td>
 	    <td >SPI+IIC</td>
 	</tr>
+<table>
 
 
 
