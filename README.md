@@ -5,6 +5,12 @@
 #### 简介
 ​		DM-MC-Board01 主控芯片是STM32F446RCT6，该开发板是一款面向机器人控制的主控，具备防反接和缓启动等多重防护。配备了高性能IMU 模块（BMI088）以及1.69 寸240*280 分辨率的LCD 模块。该主控具备两个CAN 接口、两个高速RS485 接口、一个USB接口、SBUS、PWM 等丰富接口。可以配合达妙科技出品的关节电机、直驱电机等产品制作AGV 轮式机器人、平衡车、足式机器人、轮足等DIY 产品。
 
+#### 购买及联系方式
+
+[DM-MC-Board01 电机开发板购买](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4004-23557095002.20.74b428f6vgeJIX&id=711680485840)
+
+[点击加入QQ群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XOisouvvC5y5ssbAy7mRlUO3X79Xf_Qe&authKey=gWyI73ONFqJKoZgGQZDS3x3xlVp0t92sLdXI4wVPEjzYGzALrhA6cd%2FFf3qyvOYM&noverify=0&group_code=174204312)
+
 #### 特征参数
 
 
